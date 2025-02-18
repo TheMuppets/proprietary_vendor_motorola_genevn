@@ -3143,9 +3143,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/genevn/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/genevn/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/motorola/genevn/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
+    vendor/motorola/genevn/proprietary/vendor/etc/libnfc-PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN557.conf \
     vendor/motorola/genevn/proprietary/vendor/etc/libnfc-PN560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560.conf \
     vendor/motorola/genevn/proprietary/vendor/etc/libnfc-SN220-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220-UICC.conf \
+    vendor/motorola/genevn/proprietary/vendor/etc/libnfc-nci_PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_PN557.conf \
     vendor/motorola/genevn/proprietary/vendor/etc/libnfc-nci_PN560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_PN560.conf \
+    vendor/motorola/genevn/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/motorola/genevn/proprietary/vendor/etc/sensors/config/bmi3x0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi3x0.json \
     vendor/motorola/genevn/proprietary/vendor/etc/sensors/config/bmp5_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp5_0.json \
     vendor/motorola/genevn/proprietary/vendor/etc/sensors/config/icm4x6xa.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xa.json \
@@ -3434,6 +3437,7 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
+    libpn557_fw \
     libpn560_fw \
     libportrait_repair_ppl3_ocl \
     libqll \
@@ -3442,6 +3446,7 @@ PRODUCT_PACKAGES += \
     libqshcamera \
     libree_bix_agent \
     libsfeShiftExtrapolation \
+    libsn100u_fw \
     libsn220u_fw \
     libswregistrationalgo \
     libtfestriping \
